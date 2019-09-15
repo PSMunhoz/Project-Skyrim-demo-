@@ -1,0 +1,56 @@
+* {
+	padding: 0;
+	border: 0;
+}
+	
+body {
+	background: darkgrey;
+	font: 1em "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#corpo-menu a {
+	padding: 30px 30px;
+	position: fixed;
+
+}
+
+#topo {
+	height: 150px;
+	background-image: url("_imagens/img1.jpg");
+}
+
+#topo-logo {
+	float: right;
+	margin: 5px;
+}
+
+#topo-info {
+	position: relative;
+	width: 900px;
+	height: 150px;
+	padding: 10px;
+	text-align: justify;
+	font-size: 0.8em;
+}
+
+#corpo-menu {
+}
+
+#corpo-principal {
+	padding: 10px;
+	margin: 0 auto;
+	float: left;
+	position: absolute;
+}
+
+.corpo-texto {
+	padding: 10px;
+	margin: 0 150px;
+}
+
+.corpo-imagens {
+	width: 200px;
+	height: 150px;
+	padding: 5px;
+	margin: 0px 0px 0px 30px;
+}
